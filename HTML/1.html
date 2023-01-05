@@ -4,65 +4,42 @@
 
     <title>TAG </title>
     <meta charset="utf-8">
-    <style>
-        body{
-            margin:0px;
-        }
-        a{
-            color:black;
-            text-decoration: none;
-        }
-        #active{
-            color:red;
-        }
-        .saw{
-            color:gray;
-        }
-        h1{
-            border-bottom:1px solid black;
-            font-size: 180%;
-            text-align: center;
-            margin:0px;
-            padding:20px;
-        }
-        ol{
-            border-right:1px solid gray;
-            width:150px;
-            margin:0px;
-            padding:40px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1><a href="asdf.html">Let's learn  aubot WEB</a></h1>
-    <ol>
-        <li><a href="asdf.html">HOME</a></li>
-        <li><a href="https://github.com/DeltaFrog1407" target="_blank" class="saw">GITHUB</a></li>
-        <li><a href="https://github.com/DeltaFrog1407/pythonpractice" target="_blank" class="saw" id="active" style="text-decoration:underline">PYTHON</a></li>
-        <li><a href="https://github.com/DeltaFrog1407/webpractice" target="_blank">WEB</a></li>
-    </ol>
-    <br> 부모자식 태그에 대하여 - li(list)와 ul(unorded list) 그리고 ol(ordered list)
-    <h3>Let's learn  aubot HTML - tag</h3>
-    not heading
-    <p><a href="https://www.mois.go.kr/chd/sub/a05/story/screen.do" target="_blank" title="애국가 페이지">애국가</a><br>동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나만세
-    </p>
-    <p style="margin-top:45px;"> 남산위에 저소나무 철갑을 두른 듯 바람서리 불변함은 우리 기상일세
-    </p>
-    <img src="goal.jpg" width="100%">
-    <p> 태그에 능숙하다면 더 간단하고, 더 보기 쉽게 쓰는 것이 가능하다.
-        폰트 크기, 굵기 태그를 사용하는 것과, h태그를 사용하는 것이 같은 효과를 낸다면,
-        그냥 h 코드를 쓰는 게 좋다.<br>
-        왜? - 만약 내 사이트를 노출시키고 싶다면, 나의 정보를 검색엔진에서 더 쉽게 볼수 있게 하기 위해선
-        이것저것 붙인 코드보단 확실하고 간단하게 사용한 코드가 노출도가 더 높다.<br>
-        이미지를 사용하는 것도 마찬가지다. 보기 이쁘다고 해서 이미지를 하용하여 웹을 만든다면
-        그 정보는 검색되지 않고, 접근성도 좋지 않다. 본래의 의미를 잊지 마라
-    </p>
-    <p>
-        속성을 통해서 태그에 많은 의미를 부여할 수 있다.<br>
-        img src="goal.jpg" width="100%"<br>
-        여기서 src(source)와 width를 속성이라고 할 수 있다.(참고로 width는 픽셀 단위로도 가능)
-    </p>
+    <div id="grid">
+        <ol>
+            <li><a href="asdf.html">HOME</a></li>
+            <li><a href="https://github.com/DeltaFrog1407" target="_blank" class="saw">GITHUB</a></li>
+            <li><a href="https://github.com/DeltaFrog1407/pythonpractice" target="_blank" class="saw" id="active" style="text-decoration:underline">PYTHON</a></li>
+            <li><a href="https://github.com/DeltaFrog1407/webpractice" target="_blank">WEB</a></li>
+        </ol>
+        <div id="grid2">
+            <br> 부모자식 태그에 대하여 - li(list)와 ul(unorded list) 그리고 ol(ordered list)
+            <h3>Let's learn  aubot HTML - tag</h3>
+            not heading
+            <p><a href="https://www.mois.go.kr/chd/sub/a05/story/screen.do" target="_blank" title="애국가 페이지">애국가</a><br>동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나만세
+            </p>
+            <p style="margin-top:45px;"> 남산위에 저소나무 철갑을 두른 듯 바람서리 불변함은 우리 기상일세
+            </p>
+            <img src="goal.jpg" width="100%">
+            <p> 태그에 능숙하다면 더 간단하고, 더 보기 쉽게 쓰는 것이 가능하다.
+                폰트 크기, 굵기 태그를 사용하는 것과, h태그를 사용하는 것이 같은 효과를 낸다면,
+                그냥 h 코드를 쓰는 게 좋다.<br>
+                왜? - 만약 내 사이트를 노출시키고 싶다면, 나의 정보를 검색엔진에서 더 쉽게 볼수 있게 하기 위해선
+                이것저것 붙인 코드보단 확실하고 간단하게 사용한 코드가 노출도가 더 높다.<br>
+                이미지를 사용하는 것도 마찬가지다. 보기 이쁘다고 해서 이미지를 하용하여 웹을 만든다면
+                그 정보는 검색되지 않고, 접근성도 좋지 않다. 본래의 의미를 잊지 마라
+            </p>
+            <p>
+                속성을 통해서 태그에 많은 의미를 부여할 수 있다.<br>
+                img src="goal.jpg" width="100%"<br>
+                여기서 src(source)와 width를 속성이라고 할 수 있다.(참고로 width는 픽셀 단위로도 가능)
+            </p>
+        </div>
+    </div>
 </body>
 
 </html>
