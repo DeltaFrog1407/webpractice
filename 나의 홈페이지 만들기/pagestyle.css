@@ -1,0 +1,162 @@
+@font-face{
+    font-family: maplefontL;
+    src: url(MaplestoryLight.ttf);
+}
+@font-face{
+    font-family: maplefontB;
+    src: url(MaplestoryBold.ttf);
+}
+body{
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#Headline{
+    text-align:center;
+}
+#Headline h1{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom:10px;
+    font-size:70px;
+    width:auto;
+    font-family: maplefontB;
+}
+#Headline a{
+    border-bottom:5px double gray;
+    padding-bottom:5px;
+}
+#Headline h5{
+    margin:0;
+    padding-top:10px;
+    padding-bottom:25px;
+    font-weight:100;
+    color:gray;
+    font-family: maplefontL;
+}
+#mainphoto{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align:center;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid gray;
+    margin-bottom:50px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-weight:bold;
+    font-family: maplefontL;
+}
+#banner a{
+    height:auto;
+    width:auto;
+    margin-right:auto;
+    margin-left:auto;
+}
+.iconbanner{
+    height:40px;
+    width:100%;
+    display:flex;
+    padding-right:10px;
+    background-color:gray;
+    justify-content: end;
+    align-items:center;
+    gap:10px;
+}
+.iconbanner img, a{
+    height: 30px;
+    width: 30px;
+}
+.articlehead{
+    width:80%;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap:10px;
+    column-gap: 0;
+    grid-auto-columns:auto;
+    grid-auto-rows:auto;
+}
+.articlehead h2{
+    margin:0;
+    font-size:50px;
+    border-left:10px solid gray;
+    border-bottom:5px solid gray;
+    padding-left:15px;
+    padding-bottom:10px;
+    font-family: maplefontL;
+}
+.articlehead h5{
+    margin:0;
+    font-size:25px;
+    color: rgb(161, 161, 161);
+    border-bottom:5px solid gray;
+    padding-left:15px;
+    padding-bottom:10px;
+    padding-top:25px;
+    font-family: maplefontL;
+}
+.item{
+    display:flex;
+    width:auto;
+    height:auto;
+}
+.write{
+    width:80%;
+    color:rgb(151, 142, 142);
+    font-family: maplefontL;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.article{
+    width:80%;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    column-gap: 0;
+    grid-auto-columns:auto;
+    grid-auto-rows:auto;
+}
+.article h1{
+    color:rgb(71, 71, 71);
+    font-family: maplefontB;
+}
+.article p{
+    color:rgb(151, 142, 142);
+    font-family: maplefontL;
+    margin-left:10px;
+}
+.article img{
+    margin:0 auto;
+    width:90%;
+}
+.item:nth-child(1){
+    grid-column:1/3;
+}
+#contact{
+    margin-top:150px;
+    border-top:3px solid gray;
+}
+#contact a{
+    color:rgb(151, 142, 142);
+    text-decoration: underline;
+}
