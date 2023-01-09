@@ -5,24 +5,13 @@
     <title>TAG </title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script src="colors.js"></script>
 </head>
 
 <body>
     <input id="night_day" type="button" value='night' onclick="
-    var target = document.querySelector('body');
-    if(this.value === 'night'){
-        target.style.backgroundColor='black';
-        document.querySelector('a').style.color='white';
-        document.querySelector('#grid').style.color='white';
-        target.style.color='white';
-        this.value = 'day';
-    } else{
-        target.style.backgroundColor='white';
-        document.querySelector('a').style.color='black';
-        document.querySelector('#grid').style.color='black';
-        target.style.color='black';
-        this.value = 'night';
-    }">
+        NightDayHandler(this);
+        ">
     <h1><a href="asdf.html">Let's learn  aubot WEB</a></h1>
     <div id="grid">
         <ol>
@@ -56,20 +45,8 @@
         </div>
     </div>
     <input id="night_day" type="button" value='night' onclick="
-    var target = document.querySelector('body');
-    if(this.value === 'night'){
-        target.style.backgroundColor='black';
-        document.querySelector('a').style.color='white';
-        document.querySelector('#grid').style.color='white';
-        target.style.color='white';
-        this.value = 'day';
-    } else{
-        target.style.backgroundColor='white';
-        document.querySelector('a').style.color='black';
-        document.querySelector('#grid').style.color='black';
-        target.style.color='black';
-        this.value = 'night';
-    }">
+        NightDayHandler(this);
+        ">
 </body>
 
 </html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello</title>
+	
+	
+</head>
+
+<body>
+    <h1>function</h1>
+    <h2>Basic</h2>
+    <ul>
+        <script>
+            function two(){
+                document.write('<li>2-1</li>');
+                document.write('<li>2-2</li>');
+            }
+            document.write('<li>1</li>');
+            two();
+            two();
+            document.write('<li>3</li>');
+        </script>
+    </ul>
+    <h2>Parameter입력/매개변수 & Argument인자</h2>
+    <script>
+        function onePlusOne(){
+            document.write(1+1+'<br>');
+        }
+        function sum(a, b){
+            document.write(a + b + '<br>');
+        }
+        onePlusOne();
+        sum(2, 3);
+        sum(3, 4);
+    </script>
+    <h2>Return출력</h2>
+    <script>
+        function sum2(a, b){
+            return a+b;
+        }
+        document.write(sum2(2,3) + '<br>');
+        document.write('<div style="color:red; font-size:400px;">' + sum2(2,3) + '</div>');
+    </script>
+</body>
+
+</html>
